@@ -53,9 +53,10 @@
     background-color: var(--yellow);
 }
 
-#login-form a {
+.login-bottom-a {
+    display:flex;
+    justify-content: center;
     text-align: center;
-    text-decoration: none;
     color:black;
     font-size: 13px;
 }
