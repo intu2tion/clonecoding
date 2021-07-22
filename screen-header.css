@@ -1,0 +1,30 @@
+.screen-header {
+    display:flex;
+    padding:var(--horizontal-space);
+    justify-content: space-between;
+    align-items: center;
+    /* box-sizing: border-box; <- 해봤자 width크기가 정해지지 않아 소용 없음!*/
+    margin-bottom: 5px;
+}
+
+.screen-header__icons span:not(:last-child) {
+    margin-right:23px;
+}
+
+@keyframes headericonspin {
+    100% { transform: rotate(1turn); }
+}
+.screen-header__icons {
+    position: relative;
+
+}
+
+.screen-header__title {
+    font-size: 24px;
+    font-weight:600;
+}
+
+.screen-header__icons i:hover {
+    animation: headericonspin 1s linear infinite;
+}
+
