@@ -1,3 +1,3 @@
-# clonecoding
+# https://intu2tion.github.io/clonecoding/
 
-ttps://intu2tion.github.io/clonecoding/
+https://intu2tion.github.io/clonecoding/
